@@ -1,0 +1,25 @@
+﻿{
+  "name": "mcp-registry-grow",
+  "version": "1.0.0",
+  "description": "Tools to enhance and grow the MCP ecosystem",
+  "type": "module",
+  "bin": {
+    "mcp-grow": "./src/cli/index.js"
+  },
+  "scripts": {
+    "start": "node src/cli/index.js",
+    "test": "jest",
+    "build": "npm run test"
+  },
+  "keywords": ["mcp", "registry", "ai", "model-context-protocol"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "axios": "^1.6.0",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
